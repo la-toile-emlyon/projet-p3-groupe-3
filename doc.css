@@ -1,4 +1,13 @@
 /* Le code CSS spécifique à la page de documentation */
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
+
+.bagel{
+    font-family: "Bagel Fat One", system-ui;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
+
 body{
 margin: 0;
 }

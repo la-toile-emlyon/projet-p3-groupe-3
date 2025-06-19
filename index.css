@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
 
 /* Le code CSS spécifique à la page d'accueil */
+.texte, i{
+    border: solid 3px black;
+}
 .rouge{
     background: #FF4B3E;
     border-radius: 20px;
@@ -46,7 +49,7 @@ border-radius: 32px;
 
 header{
     padding: 40px;
-    width: 100%;
+    width: 93.5%;
     height: 100vh;
     background-image: url('background.jpg');
     background-size: cover;
