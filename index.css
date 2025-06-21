@@ -7,6 +7,11 @@
 .rouge{
     background: #FF4B3E;
     border-radius: 20px;
+    margin-right: 54px;
+    background: #FF4B3E;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
 }
 .jaune{
     background: #FFF455;
