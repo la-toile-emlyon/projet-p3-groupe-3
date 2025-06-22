@@ -189,6 +189,9 @@ align-items: center;
     width: 50%;
     height: 100%;
 }
+.fonction .texte, #témoignage .texte{
+    padding: 15px;
+}
 #témoignage{
     background-color: #254977;
     display: flex;
