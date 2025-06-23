@@ -45,3 +45,12 @@ gap: 30px;
     flex-direction: column;
     justify-content: center;
 }
+
+main{
+    background: #FFF;
+background: linear-gradient(90deg,rgba(255, 255, 255, 1) 50%, rgba(37, 73, 119, 1) 100%);
+}
+
+footer{
+    background-color: rgba(37, 73, 119, 1);
+}
