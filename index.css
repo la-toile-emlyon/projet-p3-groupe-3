@@ -117,8 +117,8 @@ footer{
     justify-content: space-around;
 }
 .ima{
-width: 600px;
-height: 300px;
+width: 722.663px;
+height: 482px;
 flex-shrink: 0;
 aspect-ratio: 874.15/490.00;
 border-radius: 20px;
@@ -204,20 +204,20 @@ justify-content: center;
     width: 50%;
     height: 100%;
 }
-.fonction .texte, #témoignage .texte{
+.fonction .texte, #temoignage .texte{
     padding: 15px;
 }
-#témoignage{
-    background-color: #254977;
+#temoignage{background: #FFF;
+background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(37, 73, 119, 1) 100%);
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap: 30px;
     flex-direction: row-reverse;
 }
-#témoignage h2{
+#temoignage h2{
     margin-right: 40%;
-    color: #ffffff;
+    color: black;
 }
 
 .telechangement{

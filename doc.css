@@ -48,9 +48,17 @@ gap: 30px;
 
 main{
     background: #FFF;
-    background: linear-gradient(90deg,rgba(255, 255, 255, 1) 50%, rgba(37, 73, 119, 1) 100%);
+    background: linear-gradient(180deg,rgba(255, 255, 255, 1) 50%, rgba(37, 73, 119, 1) 100%);
+    margin: 0;
+}
+#equipe{
+    display: flex;
+    justify-content: space-between;
 }
 
 footer{
     background-color: rgba(37, 73, 119, 1);
+    margin: 0;
+    text-align: center;
+    padding: 25px;
 }
