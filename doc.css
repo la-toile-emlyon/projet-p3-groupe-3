@@ -8,6 +8,14 @@
     text-align: center;
 }
 
+.DMSans{
+    font-family: "DM Sans", 
+    system-ui;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
+
 body{
 margin: 0;
 }
@@ -46,6 +54,28 @@ gap: 30px;
     justify-content: center;
 }
 
+.bleu{
+    background: #00B8D0;
+    border-radius: 20px;
+    display: flex;
+    width: 600px;
+    height: 200px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rouge{
+    width: 1231px;
+    height: 172px;
+    background: #FF4B3E;
+    border-radius: 20px;
+    display: flex;
+    width: 1162px;
+    height: 139px;
+    flex-direction: column;
+    justify-content: center;
+}
+
 main{
     background: #FFF;
     background: linear-gradient(180deg,rgba(255, 255, 255, 1) 50%, rgba(37, 73, 119, 1) 100%);
@@ -56,9 +86,177 @@ main{
     justify-content: space-between;
 }
 
+/********EVOLUTION********/
+#evolution{
+    display: flex;
+    justify-content: space-around;
+}
+#evolution h2{
+width: 212px;
+height: 72px;
+border-radius: 20px;
+background: #FFF;
+margin-left: 155px;
+}
+#avant{
+width: 540px;
+height: 685px;
+border-radius: 20px;
+background: var(--mundo-red, #FF4B3E);
+
+}
+.avant{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 49px;
+}
+.apres{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 49px;
+}
+#apres{
+width: 540px;
+height: 685px;
+border-radius: 20px; 
+background: var(--mundo-light-blue, #00B8D0);
+
+}
+.pa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*****************/
+
 footer{
     background-color: rgba(37, 73, 119, 1);
     margin: 0;
     text-align: center;
     padding: 25px;
 }
+
+header{
+height: 1024px;
+flex-shrink: 0;
+align-self: stretch;
+background: linear-gradient(180deg, var(--mundo-red, #FF4B3E) 0%, #FFF 44.23%);
+}
+
+header img {
+width: 492px;
+height: 328px;
+flex-shrink: 0;
+aspect-ratio: 3/2;
+border-radius: 20px;
+background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+
+header h1 {
+display: flex;
+width: 1249px;
+height: 152px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: var(--black, #000);
+text-align: center;
+font-family: "Bagel Fat One";
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+
+header img #headerTxtImg {
+    display: flex;
+}
+
+#pourquoi {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(repas3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#PK3 {
+    display: flex;
+}
+
+#pourquoi p{
+    width: 350px;
+    height: 450px; 
+}
+
+#pourquoi.bleu{
+
+}
+
+#pourquoi.rouge{
+
+}
+
+.apro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#contact{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.contact-form {
+    background-color: #00C2D4;
+    padding: 30px;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.contact-form h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.input-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.input-row input {
+    flex: 1;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+textarea {
+    resize: none;
+}
+button {
+    background: linear-gradient(to right, #5F2C82, #49A09D);
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    opacity: 0.9;
+}
+
+
