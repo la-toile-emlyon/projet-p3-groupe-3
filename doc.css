@@ -202,11 +202,23 @@ header img #headerTxtImg {
 
 }
 
-.apro{
+#apropos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.aprop{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+.colcard{
+display: flex;
+}
+/*
 #contact{
     display: flex;
     flex-direction: row;
@@ -258,5 +270,5 @@ button {
 button:hover {
     opacity: 0.9;
 }
-
+*/
 
