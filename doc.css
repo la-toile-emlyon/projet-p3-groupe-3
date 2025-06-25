@@ -1,5 +1,4 @@
 /* Le code CSS spécifique à la page de documentation */
-@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
 
 .bagel{
     font-family: "Bagel Fat One", system-ui;
@@ -19,30 +18,25 @@
 body{
 margin: 0;
 }
-.lien{
-color: white;
-text-decoration: none;
-font-weight: 500;
-transition: all .3s ease-in-out;
 
-}
 nav{
-background-color: hsla(4, 100%, 62%, 1);
-display: flex;
-padding: 16px;
-justify-content: space-between;
-align-items: center;
-top: 16px;
-left: 16px;
-
-}
-.menu{
-margin: 10px;
-display: flex;
-gap: 30px;
+    background-color: #254977!important;
+    color: white;
 }
 
 .jaune{
+    width: 1231px;
+    height: 172px;
+    background: #FFF455;
+    border-radius: 20px;
+    display: flex;
+    width: 1162px;
+    height: 139px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.blanc{
     width: 1231px;
     height: 172px;
     background: #FFF455;
@@ -62,6 +56,7 @@ gap: 30px;
     height: 200px;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .rouge{
@@ -83,7 +78,50 @@ main{
 }
 
 /************CIBLE*************/
-#cible .jaune{
+.cible {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: white;
+}
+
+.cible-container {
+  background-color: #f4f4f4;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+}
+
+.cible-container h2 {
+  color: #111;
+  font-size: 24px;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+
+
+.cible-liste li {
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 12px;
+}
+
+.imgy{
+    display: flex;
+    width: 500px;
+    height: 500px;
+   padding: 5x;
+   margin: 5px;
+}
+
+
+
+/* #cible .jaune{
     width: 1231px;
     height: 172px;
     background: #FFF455;
@@ -104,7 +142,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+} */
 
 /********************************/
 
@@ -159,21 +197,11 @@ footer{
     padding: 25px;
 }
 
-header{
-height: 1024px;
-flex-shrink: 0;
-align-self: stretch;
-background: linear-gradient(180deg, var(--mundo-red, #FF4B3E) 0%, #FFF 44.23%);
+#doc-header{
+    background-image: url('amis1.png');
 }
 
-header img {
-width: 492px;
-height: 328px;
-flex-shrink: 0;
-aspect-ratio: 3/2;
-border-radius: 20px;
-background: url(<path-to-image>) lightgray 50% / cover no-repeat;
-}
+
 
 header h1 {
 display: flex;
@@ -198,50 +226,89 @@ header img #headerTxtImg {
 
 /**********POURQUOI[CETTE APP]***********/
 #pourquoi {
+    background: #254977;    
     width: 100vw;
-    height: 100vh;
+    height: 1024px;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    background-image: url(repas3.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+}
+#pourquoi h1{
+    font-size: x-large;
+}
+#PkTitre{
+    margin-top: 20px;
+    color: #254977;
 }
 
-#PK3 {
+.blanc{
+    width: 1225px;
+    height: 172px;
+    background: #ffffff;
+    border-radius: 20px;
     display: flex;
+    width: 1162px;
+    height: 139px;
+    flex-direction: column;
+    justify-content: center;
 }
 
-#pourquoi p{
-    width: 350px;
-    height: 450px; 
+#stats{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
 }
 
-#pourquoi.bleu{
+.stat-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 10px;
+}
+
+.stat-card-droite{
+    background: white;
+    color: #254977;
+    width: 516px;
+    height: 247px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
 
 }
 
-#pourquoi.rouge{
 
-}
 
 /****************/
 
 
 /**********APROPOS*********/
 #apropos{
+    
+    padding: 100px;
+}
+.aprop {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: white;
+    font-size: x-large;
 }
-.aprop{
-    display: flex;
+.objectifs{
+   display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center; 
+    font-size: x-large;
 }
+#gap{
+        
+}
+
+  
+
 /**********************/
 
 /********EQUIPE*********/
