@@ -1,4 +1,7 @@
 /* Le code CSS spécifique à la page de documentation */
+#doc-nav{
+    background-color: var(--darkBlue);
+}
 
 .bagel{
     font-family: "Bagel Fat One", system-ui;
@@ -17,21 +20,13 @@
 
 body{
 margin: 0;
-}
-
-nav{
-    background-color: #254977!important;
-    color: white;
-}
+}   
 
 .jaune{
     width: 1231px;
     height: 172px;
-    background: #FFF455;
-    border-radius: 20px;
+    background: var(--yellow);
     display: flex;
-    width: 1162px;
-    height: 139px;
     flex-direction: column;
     justify-content: center;
 }
@@ -39,11 +34,9 @@ nav{
 .blanc{
     width: 1231px;
     height: 172px;
-    background: #FFF455;
+    background: var(--white);
     border-radius: 20px;
     display: flex;
-    width: 1162px;
-    height: 139px;
     flex-direction: column;
     justify-content: center;
 }
@@ -151,6 +144,7 @@ main{
     display: flex;
     justify-content: space-around;
 }
+
 #evolution h2{
 width: 212px;
 height: 72px;
@@ -158,6 +152,7 @@ border-radius: 20px;
 background: #FFF;
 margin-left: 155px;
 }
+
 #avant{
 width: 540px;
 height: 685px;
@@ -237,6 +232,7 @@ header img #headerTxtImg {
 #pourquoi h1{
     font-size: x-large;
 }
+
 #PkTitre{
     margin-top: 20px;
     color: #254977;
@@ -266,6 +262,11 @@ header img #headerTxtImg {
     /* justify-content: space-around; */
     padding: 10px;
     gap: 10px;
+}
+
+.stat-card h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .stat-card-droite{
