@@ -180,6 +180,7 @@ footer{
     flex-direction: row-reverse;
 }
 #temoignage h2{
+    padding-right: 340px;
     font-family: "Bagel Fat One", system-ui;
     font-size: 48px;
     font-style: normal;
