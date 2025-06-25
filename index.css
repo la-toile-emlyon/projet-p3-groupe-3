@@ -77,21 +77,17 @@ footer{
   gap: 40px;
   
     background-color: #FF4B3E; 
-  padding: 20px;
+  padding: 0;
 }
 .ima{
-
-width: 722.663px;
-height: 482px;
-  height: auto;
-  border: 5px solid black; /* optionnel pour encadrer comme sur l’image */
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    width: 100%;
+    height: 100%;
 }
 .a{
 width: 300px;
 height: 200px;
 flex-shrink: 0;
-background-color: rgba(0, 184, 208, 0.57); 
+background-color: var(--blue); 
 border-radius: 20px;
 color: #000;
 
@@ -141,6 +137,7 @@ text-transform: uppercase;
 display: flex;
 align-items: center;
 }
+
 /* FONCTIONNALITES*/
 #fonctionnalites{
     margin: 10px;
