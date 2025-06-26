@@ -1,1 +1,422 @@
 /* Le code CSS spécifique à la page de documentation */
+#d-nav{
+    background-color: var(--darkBlue);
+}
+
+.bagel{
+    font-family: "Bagel Fat One", system-ui;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
+
+.DMSans{
+    font-family: "DM Sans", 
+    system-ui;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
+
+body{
+margin: 0;
+}   
+
+.jaune{
+    width: 1231px;
+    height: 172px;
+    background: var(--yellow);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.blanc{
+    width: 1231px;
+    height: 172px;
+    background: var(--white);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bleu{
+    background: #00B8D0;
+    border-radius: 20px;
+    display: flex;
+    width: 600px;
+    height: 200px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rouge{
+    width: 1231px;
+    height: 172px;
+    background: #FF4B3E;
+    border-radius: 20px;
+    display: flex;
+    width: 1162px;
+    height: 139px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main{
+    background: #FFF;
+    background: linear-gradient(180deg,rgba(255, 255, 255, 1) 50%, rgba(37, 73, 119, 1) 100%);
+    margin: 0;
+}
+
+/************CIBLE*************/
+.cible {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: white;
+}
+
+.cible-container {
+  background-color: #f4f4f4;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+}
+
+.cible-container h2 {
+  color: #111;
+  font-size: 24px;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+
+
+.cible-liste li {
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 12px;
+}
+
+.imgy{
+    display: flex;
+    width: 500px;
+    height: 500px;
+   padding: 5x;
+   margin: 5px;
+}
+
+
+
+/* #cible .jaune{
+    width: 1231px;
+    height: 172px;
+    background: #FFF455;
+    border-radius: 20px;
+    display: flex;
+    width: 398px;
+    height: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#cible .bleu{
+    background: #00B8D0;
+    border-radius: 20px;
+    display: flex;
+    width: 455px;
+    height: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+/********************************/
+
+/********EVOLUTION********/
+#evolution{
+    display: flex;
+    justify-content: space-around;
+}
+
+#evolution h2{
+width: 212px;
+height: 72px;
+border-radius: 20px;
+background: #FFF;
+margin-left: 155px;
+}
+
+#avant{
+width: 540px;
+height: 685px;
+border-radius: 20px;
+background: var(--mundo-red, #FF4B3E);
+
+}
+.avant{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 49px;
+}
+.apres{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 49px;
+}
+#apres{
+width: 540px;
+height: 685px;
+border-radius: 20px; 
+background: var(--mundo-light-blue, #00B8D0);
+
+}
+.pa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*******************************/
+
+
+footer{
+    background-color: rgba(37, 73, 119, 1);
+    margin: 0;
+    text-align: center;
+    padding: 25px;
+}
+
+#doc-nav{
+    background-color: var(--darkBlue);
+}
+
+#doc-header{
+    background-image: url('docback.png');
+}
+
+
+
+header h1 {
+display: flex;
+width: 1249px;
+height: 152px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: var(--black, #000);
+text-align: center;
+font-family: "Bagel Fat One";
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+
+header img #headerTxtImg {
+    display: flex;
+}
+
+/**********POURQUOI[CETTE APP]***********/
+#pourquoi {
+    background: #254977;    
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#pourquoi h1{
+    font-size: x-large;
+}
+
+#PkTitre{
+    margin-top: 20px;
+    color: #254977;
+}
+
+.blanc{
+    width: 1225px;
+    height: 172px;
+    background: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    width: 1162px;
+    height: 139px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#stats{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.stat-card{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    padding: 10px;
+    gap: 10px;
+}
+
+.stat-card h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.stat-card-droite{
+    background: white;
+    color: #254977;
+    width: 600PX;
+    height: 200px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.scdDescro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.scdDescro img{
+    width: 160px;
+    height: 160px;
+}
+
+
+
+/****************/
+
+
+/**********APROPOS*********/
+#apropos{
+    
+    padding: 100px;
+}
+.aprop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+}
+.objectifs{
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    font-size: x-large;
+}
+
+        
+
+
+  
+
+/**********************/
+
+/********EQUIPE*********/
+
+#equipe{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.colcard{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#equipe h2{
+    text-align: center;
+}
+/********************/
+
+
+/********SPONSORS*********/
+h4{
+    text-align: center;
+    font-size: larger;
+}
+
+.imgSponsors{
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.sponsor h2{
+text-align: center;
+}
+/***************************/
+
+/*
+#contact{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.contact-form {
+    background-color: #00C2D4;
+    padding: 30px;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.contact-form h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.input-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.input-row input {
+    flex: 1;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+textarea {
+    resize: none;
+}
+button {
+    background: linear-gradient(to right, #5F2C82, #49A09D);
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    opacity: 0.9;
+}
+*/
+
